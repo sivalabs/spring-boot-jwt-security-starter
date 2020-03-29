@@ -104,5 +104,5 @@ Deploy release version to Maven Central
 
 ```
 spring-boot-jwt-security-starter> ./mvnw release:clean release:prepare
-spring-boot-jwt-security-starter> ./mvnw release:perform`
+spring-boot-jwt-security-starter> ./mvnw release:perform
 ```
