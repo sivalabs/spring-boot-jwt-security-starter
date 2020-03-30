@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.sivalabs</groupId>
     <artifactId>spring-boot-jwt-security-starter</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <name>spring-boot-jwt-security-starter</name>
     <description>SpringBoot starter for JWT Token based Security</description>

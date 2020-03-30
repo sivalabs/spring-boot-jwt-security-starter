@@ -98,11 +98,11 @@ Set version to SNAPSHOT (ex: 1.0.0-SNAPSHOT)
 
 Deploy SNAPSHOT version to https://oss.sonatype.org/content/repositories/snapshots/
 
-`spring-boot-jwt-security-starter> ./mvnw clean deploy`
+`spring-boot-jwt-security-starter> ./mvnw clean deploy -Prelease`
 
 Deploy release version to Maven Central
 
 ```
-spring-boot-jwt-security-starter> ./mvnw release:clean release:prepare
-spring-boot-jwt-security-starter> ./mvnw release:perform
+spring-boot-jwt-security-starter> ./mvnw release:clean release:prepare -Prelease
+spring-boot-jwt-security-starter> ./mvnw release:perform -Prelease
 ```
